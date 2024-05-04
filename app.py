@@ -3,7 +3,7 @@ import os
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 
-base_path = './internlm2-chat-1_8b-assistant'
+base_path = './internlm2-chat-1_8b-overfit'
 os.system(f'git clone https://code.openxlab.org.cn/alpaca/internlm2-chat-1_8b-overfit.git {base_path}')
 os.system(f'cd {base_path} && git lfs pull')
 
